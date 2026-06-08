@@ -1,0 +1,6 @@
+{
+  "name": "Dairy Economics Hub",
+  "description": "Dairy economics and decision-support tools for milk production forecasting, feed efficiency, milk pricing, breaking-even analysis, and herd expansion planning.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
