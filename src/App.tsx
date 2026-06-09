@@ -16,6 +16,7 @@ import { Favorites } from './pages/Favorites';
 import { About } from './pages/About';
 import { Legal } from './pages/Legal';
 import { Contact } from './pages/Contact';
+import { Portfolio } from './pages/Portfolio';
 
 export default function App() {
   return (
@@ -30,6 +31,7 @@ export default function App() {
           <Route path="/margin" element={<Margin />} />
           <Route path="/expand" element={<Expand />} />
           <Route path="/favorites" element={<Favorites />} />
+          <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/about" element={<About />} />
           <Route path="/legal" element={<Legal />} />
           <Route path="/contact" element={<Contact />} />

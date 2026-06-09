@@ -34,10 +34,11 @@ export const Navbar: React.FC = () => {
         </div>
         
         <div className="hidden sm:flex space-x-6 text-sm font-medium text-slate-300">
-          <a href="#" className="hover:text-white transition-colors">Master Site</a>
-          <Link to="/legal" className="hover:text-white transition-colors">Legal</Link>
+          <a href="https://ruralutilitycost.com" className="hover:text-white transition-colors">Master Site</a>
+          <a href="https://ruralutilitycost.com/portfolio" className="hover:text-white transition-colors">Network</a>
+          <a href="https://ruralutilitycost.com/disclaimer" className="hover:text-white transition-colors">Legal</a>
           <Link to="/" className={`transition-colors ${location.pathname === '/' ? 'text-white border-b-2 border-emerald-500 pb-4 mt-4' : 'hover:text-white'}`}>Dashboard</Link>
-          <Link to="/contact" className="hover:text-white transition-colors">Contact</Link>
+          <a href="https://ruralutilitycost.com/contact" className="hover:text-white transition-colors">Contact</a>
         </div>
 
         <div className="-mr-2 flex items-center sm:hidden">
